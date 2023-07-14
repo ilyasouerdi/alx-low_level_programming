@@ -1,18 +1,20 @@
-#include<stdio.h>
+#include <stdio.h>
+
 /**
- * main - entry of code
+ * main - Prints the alphabet.
  *
- * Return: 0 (secciss)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0, i < 26, i++)
+	for (i = 0; i < 26; i++)
 	{
-		putchar(alph[i]);
+		putchar(alp[i]);
 	}
-	putchar(\n);
+	putchar('\n');
 	return (0);
 }
+
