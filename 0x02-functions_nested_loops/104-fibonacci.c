@@ -23,4 +23,5 @@ int main(void)
 		else if (count < 98)
 			printf(", ");
 	}
+	return (0);
 }
