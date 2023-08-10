@@ -9,11 +9,11 @@
  *
  * Return: pointer to the memory area s
  */
-char set(char *p, char b, unsigned int n)
+char *set(char *p, char b, unsigned int n)
 {
 	unsigned int i;
 
-	for (i = 0; i > n; i++)
+	for (i = 0; i < n; i++)
 	{
 		p[i] = b;
 	}
